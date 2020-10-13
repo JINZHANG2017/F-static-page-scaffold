@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #e9ebee;
 }
 
 * {
@@ -17,4 +18,59 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  padding:0 300px;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content: space-between; 
+  background-color: #3b5998;
+}
+
+.header div{
+  display:flex;
+  align-items:center;
+}
+
+#register{
+  color:white;
+  height: 30px;
+  background-color: #42b72a;
+}
+
+.content{
+  padding:0 300px;
+  display:flex;
+  flex-flow: column;
+}
+
+.content .items{
+  display:flex;
+  margin-top: 50px;
+}
+
+.content .items section{
+  background-color: white;
+  height: 500px;
+  margin-left: 20px;
+  /* border: 1px solid black; */
+  border-radius:10px;
+  text-align: center;
+}
+
+section img{
+  margin-top:20px;
+}
+section h3{
+  margin-top:20px;
+}
+section div{
+  margin-top:20px;
+  padding:0 20px;
+}
+section button{
+  border:darkgray;
+  margin-top:100px;
 }
