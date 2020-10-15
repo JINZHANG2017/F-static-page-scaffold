@@ -62,17 +62,17 @@ ul {
   text-align: center;
 }
 
-section img {
+.section img {
   margin-top: 20px;
 }
-section h3 {
+.section h3 {
   margin-top: 20px;
 }
-section div {
+.section div {
   margin-top: 20px;
   padding: 0 20px;
 }
-section button {
+.section button {
   border: darkgray;
   margin-top: 100px;
 }
