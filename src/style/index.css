@@ -21,56 +21,62 @@ ul {
 }
 
 .header {
-  padding:0 300px;
-  color:white;
-  display:flex;
-  align-items:center;
-  justify-content: space-between; 
+  padding: 0 20%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #3b5998;
 }
 
-.header div{
-  display:flex;
-  align-items:center;
+.header div {
+  display: flex;
+  align-items: center;
 }
 
-#register{
-  color:white;
+#register {
+  color: white;
   height: 30px;
   background-color: #42b72a;
 }
 
-.content{
-  padding:0 300px;
-  display:flex;
+.content {
+  padding: 0 20%;
+  display: flex;
   flex-flow: column;
 }
 
-.content .items{
-  display:flex;
+.items {
+  display: flex;
   margin-top: 50px;
+  justify-content: space-between;
 }
 
-.content .items section{
+.items section {
   background-color: white;
   height: 500px;
-  margin-left: 20px;
+  width: 48%;
+  /* margin-left: 20px; */
   /* border: 1px solid black; */
-  border-radius:10px;
+  border-radius: 8px;
   text-align: center;
 }
 
-section img{
-  margin-top:20px;
+section img {
+  margin-top: 20px;
 }
-section h3{
-  margin-top:20px;
+section h3 {
+  margin-top: 20px;
 }
-section div{
-  margin-top:20px;
-  padding:0 20px;
+section div {
+  margin-top: 20px;
+  padding: 0 20px;
 }
-section button{
-  border:darkgray;
-  margin-top:100px;
+section button {
+  border: darkgray;
+  margin-top: 100px;
+}
+
+#register {
+  margin-left: 10px;
 }
