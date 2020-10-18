@@ -44,17 +44,20 @@ ul {
   padding: 0 20%;
   display: flex;
   flex-flow: column;
+  /* height: 630px; */
+  min-height: 630px;
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
 .items {
   display: flex;
-  margin-top: 50px;
   justify-content: space-between;
 }
 
 .items section {
   background-color: white;
-  height: 500px;
+  height: 470px;
   width: 48%;
   /* margin-left: 20px; */
   /* border: 1px solid black; */
@@ -79,4 +82,34 @@ ul {
 
 #register {
   margin-left: 10px;
+}
+
+.footer {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0; */
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer a {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_firstline {
+  /* text-align: center; */
+
+  display: flex;
+  flex-direction: row;
 }
